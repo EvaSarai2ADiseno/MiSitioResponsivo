@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Sitio Responsivo Colorido</title>
     <style>
-        /* Estilos base */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
@@ -15,29 +14,27 @@
         }
 
         header {
-            background-color: #584831; /* Café/Naranja */
+            background-color: #584831;
             color: white;
             padding: 20px;
             text-align: center;
         }
 
-        /* Contenedor principal con Flexbox */
         .container {
             display: flex;
             flex: 1;
             flex-wrap: wrap;
         }
 
-        /* Secciones con colores */
         .barramenu {
-            background-color: #d8ee9f; /* Verde lima */
+            background-color: #d8ee9f;
             flex: 1;
             min-width: 200px;
             padding: 20px;
         }
 
         .principal {
-            background-color: #fd8ab8; /* Rosa intenso */
+            background-color: #fd8ab8;
             color: white;
             flex: 3;
             min-width: 300px;
@@ -46,20 +43,20 @@
         }
 
         .infoextra {
-            background-color: #b1ffea; /* Verde menta */
+            background-color: #b1ffea;
             flex: 1;
             min-width: 200px;
             padding: 20px;
             text-align: center;
         }
 
-        /* Estilo de la imagen corregido */
         .mismema {
             max-width: 100%;
             height: auto;
             margin: 20px auto;
             display: block;
-            border-radius: 10px; /* Opcional: bordes redondeados */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         }
 
         footer {
@@ -69,8 +66,7 @@
             padding: 10px;
         }
 
-        /* Media Query para móviles */
-        @media (max-width: 600px) {
+        @media (max-width: 800px) {
             .container {
                 flex-direction: column;
             }
@@ -93,7 +89,7 @@
             <h2>Contenido Principal</h2>
             <p>Yo soy el área rosa. En pantallas grandes soy ancho, en móviles me estiro.</p>
             
-            <img src="img/mismema.png" alt="Un gato gracioso" class="mismema">
+            <img src="img/mismema.png.jpg" alt="Un gato gracioso" class="mismema">
         </div>
 
         <div class="infoextra">
@@ -107,4 +103,5 @@
     </footer>
 
 </body>
+</html>
 </html>
